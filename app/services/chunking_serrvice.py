@@ -1,6 +1,6 @@
 def chunk_text_by_lines(
         text:str,
-        rows_per_chunk:int = 50
+        rows_per_chunk:int = 20
 ):
     lines = text.split("\n")
     chunks = []

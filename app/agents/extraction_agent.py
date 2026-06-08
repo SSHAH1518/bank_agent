@@ -1,71 +1,153 @@
-from groq import Groq
-from app.schemas.bank_statement import (BankStatement)
 import os
 import json
-from dotenv import load_dotenv
-from  app.schemas.bank_statement import BankStatement
 import re
+import time
+
+from groq import Groq
+from dotenv import load_dotenv
 
 load_dotenv()
+
 client = Groq(
     api_key=os.getenv("GROQ_API_KEY")
 )
 
-def extract_bank_details(chunk:str):
-    prompt = f"""
-    You are a financial data extraction system.
 
-    Analyze the bank statement data.
-
-    Return ONLY valid JSON.
-
-    Rules:
-    1. Return valid JSON only.
-    2. No markdown.
-    3. No explanations.
-    4. No code fences.
-    5. Every value must be a final number.
-    6. Never return calculations like:
-    1000 + 2000
-    7. Calculate totals yourself.
-    8. All amounts must be floats.
-
-    Schema:
-
-    {{
-    "monthly_summary": [
-        {{
-        "month": "YYYY-MM",
-        "money_received": 0.0,
-        "money_spent": 0.0,
-        "net_cashflow": 0.0
-        }}
-    ]
-    }}
-
-    Bank Data:
-
-    {chunk}
+def parse_llm_response(response_text: str):
+    """
+    Extract valid JSON from LLM response.
     """
 
-    response = client.chat.completions.create(
-        model="llama-3.3-70b-versatile",
-        response_format={"type": "json_object"},
-        messages=[
-            {
-                "role":"user", 
-                "content":prompt
-            }
-        ]
-    )
+    try:
+        return json.loads(response_text)
 
-    result = response.choices[0].message.content
+    except Exception:
 
-    data = json.loads(result)
+        print("Direct JSON parsing failed.")
 
-    print("===== MODEL RESPONSE =====")
-    print(result)
-    print("==========================") 
+        # Remove markdown fences if present
+
+        cleaned = response_text.replace("```json", "")
+        cleaned = cleaned.replace("```", "").strip()
+
+        # Find first JSON object
+
+        match = re.search(
+            r"\{.*\}",
+            cleaned,
+            re.DOTALL
+        )
+
+        if not match:
+            raise ValueError(
+                f"No JSON found in response:\n{response_text[:500]}"
+            )
+
+        json_text = match.group(0)
+
+        return json.loads(json_text)
 
 
-    return data
+def extract_bank_data(chunk: str):
+
+    prompt = f"""
+Extract transactions from this bank statement.
+
+Return ONLY valid JSON.
+
+DO NOT:
+- Explain anything
+- Generate Python code
+- Use markdown
+- Use triple backticks
+
+Return EXACTLY this schema:
+
+{{
+    "account_holder": "",
+    "account_number": "",
+    "transactions": [
+        {{
+            "date": "",
+            "description": "",
+            "type": "",
+            "amount": 0
+        }}
+    ]
+}}
+
+Rules:
+
+1. Extract every transaction.
+2. Amount must be numeric.
+3. Type must be Credit or Debit.
+4. Description should contain the payment narration.
+5. Missing account holder/account number is allowed.
+6. Return JSON only.
+
+Bank Statement:
+
+{chunk}
+"""
+
+    max_retries = 3
+
+    for attempt in range(max_retries):
+
+        try:
+
+            response = client.chat.completions.create(
+                model="llama-3.1-8b-instant",
+                messages=[
+                    {
+                        "role": "system",
+                        "content": """
+You are a JSON extraction engine.
+
+Return ONLY valid JSON.
+
+Never explain.
+Never generate code.
+Never generate markdown.
+Never generate text before JSON.
+Never generate text after JSON.
+"""
+                    },
+                    {
+                        "role": "user",
+                        "content": prompt
+                    }
+                ],
+                temperature=0,
+                response_format={
+                    "type": "json_object"
+                }
+            )
+
+            result = response.choices[0].message.content
+
+            print("\n===== RAW RESPONSE =====")
+            print(result[:2000])
+            print("========================\n")
+
+            parsed = parse_llm_response(result)
+
+            return parsed
+
+        except Exception as e:
+
+            print(
+                f"Attempt {attempt + 1}/{max_retries} failed:"
+            )
+            print(e)
+
+            if attempt < max_retries - 1:
+                time.sleep(2)
+
+    print("LLM extraction failed.")
+
+    return {
+        "account_holder": "",
+        "account_number": "",
+        "transactions": []
+    }

@@ -5,3 +5,6 @@ pymupdf
 groq
 python-dotenv
 pydantic
+slowapi
+pandas 
+numpy

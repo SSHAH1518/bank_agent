@@ -1,239 +1,238 @@
 date,description,type,amount,category,month,is_credit,is_debit
-2026-01-01,Savings Transfer,debit,44736,Emergency Savings,2026-01,False,True
-2026-01-01,Credit,credit,5264,Other,2026-01,True,False
+2026-01-01,Savings Transfer,debit,44736,Savings,2026-01,False,True
+2026-01-01,Credit,credit,5264,Unclassified,2026-01,True,False
 2026-01-02,Salary Credit,credit,57079,Salary,2026-01,True,False
-2026-01-02,Debit,debit,101815,Other,2026-01,False,True
+2026-01-02,Debit,debit,101815,Unclassified,2026-01,False,True
 2026-01-03,Salary Credit,credit,60088,Salary,2026-01,True,False
-2026-01-03,Debit,debit,161903,Other,2026-01,False,True
-2026-01-04,Savings Transfer,debit,156777,Emergency Savings,2026-01,False,True
-2026-01-04,Credit,credit,5126,Other,2026-01,True,False
+2026-01-03,Debit,debit,161903,Unclassified,2026-01,False,True
+2026-01-04,Savings Transfer,debit,156777,Savings,2026-01,False,True
+2026-01-04,Credit,credit,5126,Unclassified,2026-01,True,False
 2026-01-05,Salary Credit,credit,75118,Salary,2026-01,True,False
-2026-01-05,Debit,debit,231895,Other,2026-01,False,True
+2026-01-05,Debit,debit,231895,Unclassified,2026-01,False,True
 2026-01-06,Rent,debit,216843,Rent,2026-01,False,True
-2026-01-06,Credit,credit,15052,Other,2026-01,True,False
+2026-01-06,Credit,credit,15052,Unclassified,2026-01,True,False
 2026-01-07,Rent,debit,202396,Rent,2026-01,False,True
-2026-01-07,Credit,credit,14447,Other,2026-01,True,False
-2026-01-08,Savings Transfer,debit,193710,Emergency Savings,2026-01,False,True
-2026-01-08,Credit,credit,8686,Other,2026-01,True,False
+2026-01-07,Credit,credit,14447,Unclassified,2026-01,True,False
+2026-01-08,Savings Transfer,debit,193710,Savings,2026-01,False,True
+2026-01-08,Credit,credit,8686,Unclassified,2026-01,True,False
 2026-01-09,Rent,debit,176449,Rent,2026-01,False,True
-2026-01-09,Credit,credit,17261,Other,2026-01,True,False
-2026-01-10,Savings Transfer,debit,164856,Emergency Savings,2026-01,False,True
-2026-01-10,Credit,credit,11593,Other,2026-01,True,False
+2026-01-09,Credit,credit,17261,Unclassified,2026-01,True,False
+2026-01-10,Savings Transfer,debit,164856,Savings,2026-01,False,True
+2026-01-10,Credit,credit,11593,Unclassified,2026-01,True,False
 2026-01-11,Groceries,debit,2452,Groceries,2026-01,False,True
 2026-01-12,Salary Credit,credit,76774,Salary,2026-01,True,False
 2026-01-13,Groceries,debit,2055,Groceries,2026-01,False,True
 2026-01-14,Groceries,debit,1539,Groceries,2026-01,False,True
-2026-01-15,Utilities,debit,2054,Other,2026-01,False,True
+2026-01-15,Utilities,debit,2054,Unclassified,2026-01,False,True
 2026-01-16,Groceries,debit,751,Groceries,2026-01,False,True
 2026-01-17,Groceries,debit,994,Groceries,2026-01,False,True
 2026-01-18,Salary Credit,credit,76810,Salary,2026-01,True,False
 2026-01-19,Groceries,debit,1672,Groceries,2026-01,False,True
-2026-01-20,Utilities,debit,2134,Other,2026-01,False,True
+2026-01-20,Utilities,debit,2134,Unclassified,2026-01,False,True
 2026-01-21,Rent,debit,14854,Rent,2026-01,False,True
-2026-01-22,Savings Transfer,debit,15677,Emergency Savings,2026-01,False,True
-2026-01-23,Medical Expense,debit,1156,Other,2026-01,False,True
-2026-01-24,,,0,Other,2026-01,False,False
-2026-01-25,Savings Transfer,debit,11677,Emergency Savings,2026-01,False,True
+2026-01-22,Savings Transfer,debit,15677,Savings,2026-01,False,True
+2026-01-23,Medical Expense,debit,1156,Medical Expenses,2026-01,False,True
+2026-01-24,,,0,Unclassified,2026-01,False,False
+2026-01-25,Savings Transfer,debit,11677,Savings,2026-01,False,True
 2026-01-26,Rent,debit,12240,Rent,2026-01,False,True
 2026-01-27,Groceries,debit,1309,Groceries,2026-01,False,True
-2026-01-28,Medical Expense,debit,699,Other,2026-01,False,True
+2026-01-28,Medical Expense,debit,699,Medical Expenses,2026-01,False,True
 2026-01-29,Groceries,debit,1773,Groceries,2026-01,False,True
 2026-01-30,Groceries,debit,2476,Groceries,2026-01,False,True
 2026-01-31,Rent,debit,20445,Rent,2026-01,False,True
 2026-02-01,Rent,debit,15221,Rent,2026-02,False,True
-2026-02-02,Savings Transfer,debit,11363,Emergency Savings,2026-02,False,True
-2026-02-03,Savings Transfer,debit,12077,Emergency Savings,2026-02,False,True
-2026-02-04,Savings Transfer,debit,15621,Emergency Savings,2026-02,False,True
-2026-02-05,Utilities,debit,1866,Other,2026-02,False,True
+2026-02-02,Savings Transfer,debit,11363,Savings,2026-02,False,True
+2026-02-03,Savings Transfer,debit,12077,Savings,2026-02,False,True
+2026-02-04,Savings Transfer,debit,15621,Savings,2026-02,False,True
+2026-02-05,Utilities,debit,1866,Unclassified,2026-02,False,True
 2026-01-27,Groceries,credit,247876,Groceries,2026-01,True,False
-2026-01-28,Medical Expense,credit,247177,Other,2026-01,True,False
+2026-01-28,Medical Expense,credit,247177,Medical Expenses,2026-01,True,False
 2026-01-29,Groceries,credit,245404,Groceries,2026-01,True,False
 2026-01-30,Groceries,credit,242928,Groceries,2026-01,True,False
 2026-01-31,Rent,credit,222483,Rent,2026-01,True,False
 2026-02-01,Rent,credit,207262,Rent,2026-02,True,False
-2026-02-02,Savings Transfer,credit,195899,Emergency Savings,2026-02,True,False
-2026-02-03,Savings Transfer,credit,183822,Emergency Savings,2026-02,True,False
-2026-02-04,Savings Transfer,credit,168201,Emergency Savings,2026-02,True,False
-2026-02-05,Utilities,credit,166335,Other,2026-02,True,False
+2026-02-02,Savings Transfer,credit,195899,Savings,2026-02,True,False
+2026-02-03,Savings Transfer,credit,183822,Savings,2026-02,True,False
+2026-02-04,Savings Transfer,credit,168201,Savings,2026-02,True,False
+2026-02-05,Utilities,credit,166335,Unclassified,2026-02,True,False
 2026-01-30,Groceries,credit,2476,Groceries,2026-01,True,False
-2026-01-29,Groceries,credit,2476,Groceries,2026-01,True,False
 2026-02-05,Groceries,credit,517,Groceries,2026-02,True,False
 2026-02-06,Salary Credit,credit,50807,Salary,2026-02,True,False
 2026-02-07,Groceries,debit,1551,Groceries,2026-02,False,True
-2026-02-08,Savings Transfer,debit,9042,Emergency Savings,2026-02,False,True
-2026-02-09,Savings Transfer,debit,3136,Emergency Savings,2026-02,False,True
+2026-02-08,Savings Transfer,debit,9042,Savings,2026-02,False,True
+2026-02-09,Savings Transfer,debit,3136,Savings,2026-02,False,True
 2026-02-10,Salary Credit,credit,85410,Salary,2026-02,True,False
-2026-02-11,Savings Transfer,debit,7721,Emergency Savings,2026-02,False,True
+2026-02-11,Savings Transfer,debit,7721,Savings,2026-02,False,True
 2026-02-12,Rent,debit,24272,Rent,2026-02,False,True
-2026-02-13,Savings Transfer,debit,19646,Emergency Savings,2026-02,False,True
+2026-02-13,Savings Transfer,debit,19646,Savings,2026-02,False,True
 2026-02-14,Groceries,debit,1870,Groceries,2026-02,False,True
 2026-02-15,Salary Credit,credit,59534,Salary,2026-02,True,False
-2026-02-16,Utilities,debit,2598,Other,2026-02,False,True
-2026-02-17,Savings Transfer,debit,12810,Emergency Savings,2026-02,False,True
-2026-02-19,Utilities,debit,2367,Other,2026-02,False,True
-2026-02-20,Utilities,debit,1142,Other,2026-02,False,True
-2026-02-21,Savings Transfer,debit,10748,Emergency Savings,2026-02,False,True
-2026-02-22,Savings Transfer,debit,15605,Emergency Savings,2026-02,False,True
-2026-02-23,Utilities,debit,1212,Other,2026-02,False,True
-2026-02-24,Savings Transfer,debit,17848,Emergency Savings,2026-02,False,True
-2026-02-25,Savings Transfer,debit,19059,Emergency Savings,2026-02,False,True
+2026-02-16,Utilities,debit,2598,Unclassified,2026-02,False,True
+2026-02-17,Savings Transfer,debit,12810,Savings,2026-02,False,True
+2026-02-19,Utilities,debit,2367,Unclassified,2026-02,False,True
+2026-02-20,Utilities,debit,1142,Unclassified,2026-02,False,True
+2026-02-21,Savings Transfer,debit,10748,Savings,2026-02,False,True
+2026-02-22,Savings Transfer,debit,15605,Savings,2026-02,False,True
+2026-02-23,Utilities,debit,1212,Unclassified,2026-02,False,True
+2026-02-24,Savings Transfer,debit,17848,Savings,2026-02,False,True
+2026-02-25,Savings Transfer,debit,19059,Savings,2026-02,False,True
 2026-02-26,Salary Credit,credit,80566,Salary,2026-02,True,False
-2026-02-27,Savings Transfer,debit,11032,Emergency Savings,2026-02,False,True
-2026-02-28,Savings Transfer,debit,6511,Emergency Savings,2026-02,False,True
-2026-03-01,Medical Expense,debit,3582,Other,2026-03,False,True
+2026-02-27,Savings Transfer,debit,11032,Savings,2026-02,False,True
+2026-02-28,Savings Transfer,debit,6511,Savings,2026-02,False,True
+2026-03-01,Medical Expense,debit,3582,Medical Expenses,2026-03,False,True
 2026-03-02,Salary Credit,credit,89139,Salary,2026-03,True,False
-2026-03-02,Utilities,debit,1394,Other,2026-03,False,True
-2026-03-03,Utilities,debit,1715,Other,2026-03,False,True
-2026-03-04,Utilities,debit,2771,Other,2026-03,False,True
+2026-03-02,Utilities,debit,1394,Unclassified,2026-03,False,True
+2026-03-03,Utilities,debit,1715,Unclassified,2026-03,False,True
+2026-03-04,Utilities,debit,2771,Unclassified,2026-03,False,True
 2026-03-05,Groceries,debit,1506,Groceries,2026-03,False,True
 2026-03-06,Salary Credit,credit,57464,Salary,2026-03,True,False
 2026-03-07,Groceries,debit,692,Groceries,2026-03,False,True
 2026-03-08,Salary Credit,credit,72278,Salary,2026-03,True,False
-2026-03-09,Savings Transfer,debit,6768,Emergency Savings,2026-03,False,True
+2026-03-09,Savings Transfer,debit,6768,Savings,2026-03,False,True
 2026-03-10,Salary Credit,credit,88601,Salary,2026-03,True,False
 2026-03-11,Groceries,debit,1891,Groceries,2026-03,False,True
-2026-03-12,Utilities,debit,1288,Other,2026-03,False,True
-2026-03-13,Savings Transfer,debit,16097,Emergency Savings,2026-03,False,True
-2026-03-14,Savings Transfer,debit,15236,Emergency Savings,2026-03,False,True
-2026-03-15,,,0,Other,2026-03,False,False
+2026-03-12,Utilities,debit,1288,Unclassified,2026-03,False,True
+2026-03-13,Savings Transfer,debit,16097,Savings,2026-03,False,True
+2026-03-14,Savings Transfer,debit,15236,Savings,2026-03,False,True
+2026-03-15,,,0,Unclassified,2026-03,False,False
 2026-03-16,Rent,debit,16777,Rent,2026-03,False,True
-2026-03-17,Savings Transfer,debit,12731,Emergency Savings,2026-03,False,True
-2026-03-18,Utilities,debit,726,Other,2026-03,False,True
+2026-03-17,Savings Transfer,debit,12731,Savings,2026-03,False,True
+2026-03-18,Utilities,debit,726,Unclassified,2026-03,False,True
 2026-03-19,Salary Credit,credit,89855,Salary,2026-03,True,False
-2026-03-20,Medical Expense,debit,1804,Other,2026-03,False,True
-2026-03-21,Medical Expense,debit,2964,Other,2026-03,False,True
+2026-03-20,Medical Expense,debit,1804,Medical Expenses,2026-03,False,True
+2026-03-21,Medical Expense,debit,2964,Medical Expenses,2026-03,False,True
 2026-03-22,Salary Credit,credit,71588,Salary,2026-03,True,False
 2026-03-23,Groceries,debit,2346,Groceries,2026-03,False,True
-2026-03-24,Savings Transfer,debit,6167,Emergency Savings,2026-03,False,True
-2026-03-25,Savings Transfer,debit,4529,Emergency Savings,2026-03,False,True
-2026-03-26,Savings Transfer,debit,12052,Emergency Savings,2026-03,False,True
-2026-03-27,Savings Transfer,debit,10520,Emergency Savings,2026-03,False,True
-2026-03-27,Utilities,debit,1956,Other,2026-03,False,True
+2026-03-24,Savings Transfer,debit,6167,Savings,2026-03,False,True
+2026-03-25,Savings Transfer,debit,4529,Savings,2026-03,False,True
+2026-03-26,Savings Transfer,debit,12052,Savings,2026-03,False,True
+2026-03-27,Savings Transfer,debit,10520,Savings,2026-03,False,True
+2026-03-27,Utilities,debit,1956,Unclassified,2026-03,False,True
 2026-03-28,Groceries,debit,1197,Groceries,2026-03,False,True
 2026-03-29,Groceries,debit,1504,Groceries,2026-03,False,True
 2026-03-30,Groceries,debit,1100,Groceries,2026-03,False,True
-2026-03-31,Savings Transfer,debit,8243,Emergency Savings,2026-03,False,True
+2026-03-31,Savings Transfer,debit,8243,Savings,2026-03,False,True
 2026-04-01,Salary Credit,credit,71094,Salary,2026-04,True,False
-2026-04-02,Savings Transfer,debit,7183,Emergency Savings,2026-04,False,True
+2026-04-02,Savings Transfer,debit,7183,Savings,2026-04,False,True
 2026-04-03,Groceries,debit,657,Groceries,2026-04,False,True
 2026-04-04,Groceries,debit,2365,Groceries,2026-04,False,True
-2026-04-05,Savings Transfer,debit,14744,Emergency Savings,2026-04,False,True
+2026-04-05,Savings Transfer,debit,14744,Savings,2026-04,False,True
 2026-04-06,Rent,debit,24188,Rent,2026-04,False,True
-2026-04-07,Medical Expense,debit,911,Other,2026-04,False,True
+2026-04-07,Medical Expense,debit,911,Medical Expenses,2026-04,False,True
 2026-04-08,Groceries,debit,1919,Groceries,2026-04,False,True
 2026-04-09,Groceries,debit,1919,Groceries,2026-04,False,True
 2026-04-10,Groceries,debit,1020,Groceries,2026-04,False,True
 2026-04-11,Groceries,debit,701,Groceries,2026-04,False,True
 2026-04-12,Salary Credit,credit,55987,Salary,2026-04,True,False
 2026-04-13,Groceries,debit,1556,Groceries,2026-04,False,True
-2026-04-14,Savings Transfer,debit,16914,Emergency Savings,2026-04,False,True
-2026-04-15,Medical Expense,debit,3439,Other,2026-04,False,True
+2026-04-14,Savings Transfer,debit,16914,Savings,2026-04,False,True
+2026-04-15,Medical Expense,debit,3439,Medical Expenses,2026-04,False,True
 2026-04-16,Groceries,debit,2002,Groceries,2026-04,False,True
-2026-04-17,Savings Transfer,debit,12108,Emergency Savings,2026-04,False,True
+2026-04-17,Savings Transfer,debit,12108,Savings,2026-04,False,True
 2026-04-18,Groceries,debit,1627,Groceries,2026-04,False,True
-2026-04-19,Savings Transfer,debit,9370,Emergency Savings,2026-04,False,True
-2026-04-20,Savings Transfer,debit,11317,Emergency Savings,2026-04,False,True
-2026-04-21,Savings Transfer,debit,11039,Emergency Savings,2026-04,False,True
-2026-04-22,Utilities,debit,661,Other,2026-04,False,True
-2026-04-23,Medical Expense,debit,3276,Other,2026-04,False,True
-2026-04-24,Savings Transfer,credit,3087,Emergency Savings,2026-04,True,False
+2026-04-19,Savings Transfer,debit,9370,Savings,2026-04,False,True
+2026-04-20,Savings Transfer,debit,11317,Savings,2026-04,False,True
+2026-04-21,Savings Transfer,debit,11039,Savings,2026-04,False,True
+2026-04-22,Utilities,debit,661,Unclassified,2026-04,False,True
+2026-04-23,Medical Expense,debit,3276,Medical Expenses,2026-04,False,True
+2026-04-24,Savings Transfer,credit,3087,Savings,2026-04,True,False
 2026-04-25,Groceries,debit,1894,Groceries,2026-04,False,True
-2026-04-26,Savings Transfer,credit,7311,Emergency Savings,2026-04,True,False
-2026-04-27,Medical Expense,debit,435,Other,2026-04,False,True
+2026-04-26,Savings Transfer,credit,7311,Savings,2026-04,True,False
+2026-04-27,Medical Expense,debit,435,Medical Expenses,2026-04,False,True
 2026-04-28,Rent,debit,13653,Rent,2026-04,False,True
-2026-04-29,Savings Transfer,credit,9801,Emergency Savings,2026-04,True,False
-2026-04-30,Medical Expense,debit,3172,Other,2026-04,False,True
+2026-04-29,Savings Transfer,credit,9801,Savings,2026-04,True,False
+2026-04-30,Medical Expense,debit,3172,Medical Expenses,2026-04,False,True
 2026-05-01,Rent,debit,12884,Rent,2026-05,False,True
-2026-05-02,Utilities,debit,786,Other,2026-05,False,True
-2026-05-03,Savings Transfer,credit,18525,Emergency Savings,2026-05,True,False
+2026-05-02,Utilities,debit,786,Unclassified,2026-05,False,True
+2026-05-03,Savings Transfer,credit,18525,Savings,2026-05,True,False
 2026-05-05,Groceries,debit,2030,Groceries,2026-05,False,True
-2026-05-06,Medical Expense,debit,3083,Other,2026-05,False,True
+2026-05-06,Medical Expense,debit,3083,Medical Expenses,2026-05,False,True
 2026-05-07,Salary Credit,credit,80048,Salary,2026-05,True,False
-2026-05-08,Savings Transfer,debit,3857,Emergency Savings,2026-05,False,True
+2026-05-08,Savings Transfer,debit,3857,Savings,2026-05,False,True
 2026-05-09,Rent,debit,13076,Rent,2026-05,False,True
 2026-05-10,Salary Credit,credit,64817,Salary,2026-05,True,False
-2026-05-11,Utilities,debit,2477,Other,2026-05,False,True
+2026-05-11,Utilities,debit,2477,Unclassified,2026-05,False,True
 2026-05-12,Salary Credit,credit,57928,Salary,2026-05,True,False
 2026-05-13,Groceries,debit,2234,Groceries,2026-05,False,True
-2026-05-14,Medical Expense,debit,1690,Other,2026-05,False,True
-2026-05-15,Savings Transfer,debit,15219,Emergency Savings,2026-05,False,True
-2026-05-16,Utilities,debit,2352,Other,2026-05,False,True
+2026-05-14,Medical Expense,debit,1690,Medical Expenses,2026-05,False,True
+2026-05-15,Savings Transfer,debit,15219,Savings,2026-05,False,True
+2026-05-16,Utilities,debit,2352,Unclassified,2026-05,False,True
 2026-05-17,Salary Credit,credit,77838,Salary,2026-05,True,False
-2026-05-18,Savings Transfer,debit,810204,Emergency Savings,2026-05,False,True
+2026-05-18,Savings Transfer,debit,810204,Savings,2026-05,False,True
 2026-05-19,Groceries,debit,666,Groceries,2026-05,False,True
-2026-05-20,Savings Transfer,debit,799545,Emergency Savings,2026-05,False,True
-2026-05-21,Utilities,debit,10659,Other,2026-05,False,True
-2026-05-22,Medical Expense,debit,799879,Other,2026-05,False,True
-2026-05-23,Savings Transfer,debit,798879,Emergency Savings,2026-05,False,True
-2026-05-24,Savings Transfer,debit,787238,Emergency Savings,2026-05,False,True
-2026-05-25,Savings Transfer,debit,784259,Emergency Savings,2026-05,False,True
-2026-05-26,Medical Expense,debit,780946,Other,2026-05,False,True
-2026-05-27,Savings Transfer,debit,770258,Emergency Savings,2026-05,False,True
-2026-05-28,Savings Transfer,debit,766637,Emergency Savings,2026-05,False,True
-2026-05-29,Savings Transfer,debit,759334,Emergency Savings,2026-05,False,True
-2026-05-18,Savings Transfer,credit,10659,Emergency Savings,2026-05,True,False
+2026-05-20,Savings Transfer,debit,799545,Savings,2026-05,False,True
+2026-05-21,Utilities,debit,10659,Unclassified,2026-05,False,True
+2026-05-22,Medical Expense,debit,799879,Medical Expenses,2026-05,False,True
+2026-05-23,Savings Transfer,debit,798879,Savings,2026-05,False,True
+2026-05-24,Savings Transfer,debit,787238,Savings,2026-05,False,True
+2026-05-25,Savings Transfer,debit,784259,Savings,2026-05,False,True
+2026-05-26,Medical Expense,debit,780946,Medical Expenses,2026-05,False,True
+2026-05-27,Savings Transfer,debit,770258,Savings,2026-05,False,True
+2026-05-28,Savings Transfer,debit,766637,Savings,2026-05,False,True
+2026-05-29,Savings Transfer,debit,759334,Savings,2026-05,False,True
+2026-05-18,Savings Transfer,credit,10659,Savings,2026-05,True,False
 2026-05-19,Groceries,credit,666,Groceries,2026-05,True,False
-2026-05-20,Savings Transfer,credit,799545,Emergency Savings,2026-05,True,False
-2026-05-21,Utilities,credit,10659,Other,2026-05,True,False
-2026-05-22,Medical Expense,credit,799879,Other,2026-05,True,False
-2026-05-23,Savings Transfer,credit,798879,Emergency Savings,2026-05,True,False
-2026-05-24,Savings Transfer,credit,787238,Emergency Savings,2026-05,True,False
-2026-05-25,Savings Transfer,credit,784259,Emergency Savings,2026-05,True,False
-2026-05-26,Medical Expense,credit,780946,Other,2026-05,True,False
-2026-05-27,Savings Transfer,credit,770258,Emergency Savings,2026-05,True,False
-2026-05-28,Savings Transfer,credit,766637,Emergency Savings,2026-05,True,False
-2026-05-29,Savings Transfer,credit,759334,Emergency Savings,2026-05,True,False
+2026-05-20,Savings Transfer,credit,799545,Savings,2026-05,True,False
+2026-05-21,Utilities,credit,10659,Unclassified,2026-05,True,False
+2026-05-22,Medical Expense,credit,799879,Medical Expenses,2026-05,True,False
+2026-05-23,Savings Transfer,credit,798879,Savings,2026-05,True,False
+2026-05-24,Savings Transfer,credit,787238,Savings,2026-05,True,False
+2026-05-25,Savings Transfer,credit,784259,Savings,2026-05,True,False
+2026-05-26,Medical Expense,credit,780946,Medical Expenses,2026-05,True,False
+2026-05-27,Savings Transfer,credit,770258,Savings,2026-05,True,False
+2026-05-28,Savings Transfer,credit,766637,Savings,2026-05,True,False
+2026-05-29,Savings Transfer,credit,759334,Savings,2026-05,True,False
 2026-05-17,Salary Credit,credit,88785,Salary,2026-05,True,False
 2026-05-26,Salary Credit,credit,88785,Salary,2026-05,True,False
-2026-05-27,Savings Transfer,credit,13204,Emergency Savings,2026-05,True,False
-2026-05-28,Savings Transfer,credit,17839,Emergency Savings,2026-05,True,False
-2026-05-30,Savings Transfer,debit,14521,Emergency Savings,2026-05,False,True
-2026-05-31,Savings Transfer,debit,9577,Emergency Savings,2026-05,False,True
-2026-06-01,Savings Transfer,debit,16661,Emergency Savings,2026-06,False,True
-2026-06-02,Utilities,debit,1631,Other,2026-06,False,True
-2026-06-03,Utilities,debit,2720,Other,2026-06,False,True
+2026-05-27,Savings Transfer,credit,13204,Savings,2026-05,True,False
+2026-05-28,Savings Transfer,credit,17839,Savings,2026-05,True,False
+2026-05-30,Savings Transfer,debit,14521,Savings,2026-05,False,True
+2026-05-31,Savings Transfer,debit,9577,Savings,2026-05,False,True
+2026-06-01,Savings Transfer,debit,16661,Savings,2026-06,False,True
+2026-06-02,Utilities,debit,1631,Unclassified,2026-06,False,True
+2026-06-03,Utilities,debit,2720,Unclassified,2026-06,False,True
 2026-06-04,Rent,debit,16824,Rent,2026-06,False,True
 2026-06-05,Rent,debit,12974,Rent,2026-06,False,True
-2026-06-06,Savings Transfer,debit,12298,Emergency Savings,2026-06,False,True
-2026-06-07,Savings Transfer,debit,11167,Emergency Savings,2026-06,False,True
-2026-06-08,Savings Transfer,debit,8628,Emergency Savings,2026-06,False,True
+2026-06-06,Savings Transfer,debit,12298,Savings,2026-06,False,True
+2026-06-07,Savings Transfer,debit,11167,Savings,2026-06,False,True
+2026-06-08,Savings Transfer,debit,8628,Savings,2026-06,False,True
 2026-06-09,Rent,debit,18777,Rent,2026-06,False,True
 2026-06-10,Groceries,debit,2064,Groceries,2026-06,False,True
-2026-06-11,Utilities,debit,647,Other,2026-06,False,True
+2026-06-11,Utilities,debit,647,Unclassified,2026-06,False,True
 2026-06-12,Groceries,debit,954,Groceries,2026-06,False,True
-2026-06-13,Utilities,debit,1702,Other,2026-06,False,True
+2026-06-13,Utilities,debit,1702,Unclassified,2026-06,False,True
 2026-06-14,Groceries,debit,934,Groceries,2026-06,False,True
-2026-06-15,Savings Transfer,credit,16211,Emergency Savings,2026-06,True,False
+2026-06-15,Savings Transfer,credit,16211,Savings,2026-06,True,False
 2026-06-16,Groceries,debit,813,Groceries,2026-06,False,True
-2026-06-17,Savings Transfer,credit,19792,Emergency Savings,2026-06,True,False
-2026-06-18,Savings Transfer,credit,16679,Emergency Savings,2026-06,True,False
+2026-06-17,Savings Transfer,credit,19792,Savings,2026-06,True,False
+2026-06-18,Savings Transfer,credit,16679,Savings,2026-06,True,False
 2026-06-19,Salary Credit,credit,65004,Salary,2026-06,True,False
 2026-06-20,Groceries,debit,993,Groceries,2026-06,False,True
-2026-06-21,Utilities,debit,2440,Other,2026-06,False,True
-2026-06-22,Savings Transfer,credit,9276,Emergency Savings,2026-06,True,False
+2026-06-21,Utilities,debit,2440,Unclassified,2026-06,False,True
+2026-06-22,Savings Transfer,credit,9276,Savings,2026-06,True,False
 2026-06-24,Groceries,debit,2181,Groceries,2026-06,False,True
-2026-06-25,Utilities,debit,1354,Other,2026-06,False,True
+2026-06-25,Utilities,debit,1354,Unclassified,2026-06,False,True
 2026-06-26,Salary Credit,credit,75822,Salary,2026-06,True,False
 2026-06-27,Salary Credit,credit,69072,Salary,2026-06,True,False
-2026-06-28,Savings Transfer,debit,13551,Emergency Savings,2026-06,False,True
+2026-06-28,Savings Transfer,debit,13551,Savings,2026-06,False,True
 2026-06-29,Salary Credit,credit,52061,Salary,2026-06,True,False
-2026-01-01,Savings Transfer,debit,6499,Emergency Savings,2026-01,False,True
-2026-01-02,Medical Expense,debit,3578,Other,2026-01,False,True
-2026-01-03,Savings Transfer,debit,4868,Emergency Savings,2026-01,False,True
-2026-01-04,Savings Transfer,debit,7334,Emergency Savings,2026-01,False,True
-2026-01-05,Savings Transfer,debit,9557,Emergency Savings,2026-01,False,True
+2026-01-01,Savings Transfer,debit,6499,Savings,2026-01,False,True
+2026-01-02,Medical Expense,debit,3578,Medical Expenses,2026-01,False,True
+2026-01-03,Savings Transfer,debit,4868,Savings,2026-01,False,True
+2026-01-04,Savings Transfer,debit,7334,Savings,2026-01,False,True
+2026-01-05,Savings Transfer,debit,9557,Savings,2026-01,False,True
 2026-01-06,Rent,debit,18277,Rent,2026-01,False,True
-2026-01-07,Utilities,debit,2678,Other,2026-01,False,True
+2026-01-07,Utilities,debit,2678,Unclassified,2026-01,False,True
 2026-01-08,Salary Credit,credit,88836,Salary,2026-01,True,False
-2026-01-09,Savings Transfer,debit,14424,Emergency Savings,2026-01,False,True
-2026-01-10,Savings Transfer,debit,11192,Emergency Savings,2026-01,False,True
+2026-01-09,Savings Transfer,debit,14424,Savings,2026-01,False,True
+2026-01-10,Savings Transfer,debit,11192,Savings,2026-01,False,True
 2026-01-11,Groceries,debit,1333,Groceries,2026-01,False,True
-2026-01-12,Medical Expense,debit,1411,Other,2026-01,False,True
-2026-01-13,Savings Transfer,debit,9931,Emergency Savings,2026-01,False,True
+2026-01-12,Medical Expense,debit,1411,Medical Expenses,2026-01,False,True
+2026-01-13,Savings Transfer,debit,9931,Savings,2026-01,False,True
 2026-01-14,Groceries,debit,2018,Groceries,2026-01,False,True
 2026-01-15,Rent,debit,14453,Rent,2026-01,False,True
-2026-01-16,Savings Transfer,debit,10748,Emergency Savings,2026-01,False,True
+2026-01-16,Savings Transfer,debit,10748,Savings,2026-01,False,True
 2026-01-17,Groceries,debit,1165,Groceries,2026-01,False,True
-2026-01-18,Savings Transfer,debit,13631,Emergency Savings,2026-01,False,True
-2026-01-20,Utilities,debit,2680,Other,2026-01,False,True
-2026-01-20,Savings Transfer,credit,793931,Emergency Savings,2026-01,True,False
+2026-01-18,Savings Transfer,debit,13631,Savings,2026-01,False,True
+2026-01-20,Utilities,debit,2680,Unclassified,2026-01,False,True
+2026-01-20,Savings Transfer,credit,793931,Savings,2026-01,True,False

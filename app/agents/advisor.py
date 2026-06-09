@@ -40,26 +40,199 @@ def convert_numpy(obj):
 def generate_financial_advice(analytics):
 
     prompt = f"""
-You are a financial advisor.
+You are a financial analyst.
 
-Analyze this financial summary:
+Your job is to analyze transaction data and provide evidence-based observations.
+
+Financial Data:
 
 {json.dumps(analytics, indent=2, default=convert_numpy)}
 
+========================================
+CATEGORY DEFINITIONS
+========================================
+
+Salary:
+Income from employment.
+
+Investments:
+SIPs, Mutual Funds,
+Index Funds, ETFs,
+Stocks, Bonds.
+
+Savings:
+Savings transfers,
+Fixed Deposits,
+Recurring Deposits,
+Emergency Funds.
+
+Dining:
+Restaurants,
+Food Delivery,
+Cafes.
+
+Luxury Spending:
+Designer Brands,
+Premium Shopping,
+Luxury Goods.
+
+Travel:
+Flights,
+Hotels,
+Vacations.
+
+Medical Expenses:
+Hospitals,
+Clinics,
+Pharmacies.
+
+Utilities:
+Electricity,
+Water,
+Internet,
+Gas.
+
+Credit Card Payment:
+Repayment of debt.
+This is NOT spending.
+
+========================================
+INTERPRETATION RULES
+========================================
+
+Salary is income.
+
+Savings are positive behavior.
+
+Investments are positive behavior.
+
+Credit card payments are debt repayment.
+
+Transfers between personal accounts
+are not expenses.
+
+Do NOT classify investments
+as risky simply because
+the amount is large.
+
+Do NOT classify savings
+as spending.
+
+Do NOT classify salary
+as spending.
+
+Large amounts alone
+do not indicate risk.
+
+========================================
+RISK DETECTION RULES
+========================================
+
+Only report a risk if
+there is direct evidence.
+
+Valid examples:
+
+- Very high luxury spending
+relative to total outflow
+
+- Very high dining spending
+relative to total outflow
+
+- Large ATM withdrawals
+
+- Very low savings
+despite high income
+
+- Extremely concentrated spending
+in a discretionary category
+
+Invalid examples:
+
+- High rent
+
+- High investments
+
+- High savings
+
+- High salary
+
+- Missing categories
+
+- Lack of data
+
+Never create a risk from:
+
+- missing information
+- absent categories
+- insufficient evidence
+
+If evidence does not exist,
+omit the risk entirely.
+
+Use the provided ratios when
+evaluating spending patterns.
+
+========================================
+RECOMMENDATION RULES
+========================================
+
+Every recommendation must be linked
+to a specific observation or risk.
+
+Do NOT provide generic advice.
+
+BAD:
+"Create a budget."
+
+GOOD:
+"Dining expenses represent 28% of all outflows. Consider reducing restaurant spending."
+
+BAD:
+"Diversify investments."
+
+GOOD:
+"95% of investment activity appears concentrated in SIP contributions."
+
+If there is no evidence,
+do not create a recommendation.
+
+========================================
+OUTPUT REQUIREMENTS
+========================================
+
+For spending habits:
+
+Describe only the most significant categories.
+
+For risks:
+
 Provide:
 
-1. Spending habits
-2. Savings habits
-3. Financial risks
-4. Recommendations
+- risk
+- evidence
+- category
+- amount
+- explanation
 
-Return JSON:
+Only include risks supported
+by data.
+
+For recommendations:
+
+Each recommendation must reference
+a specific spending pattern
+or risk.
+
+Return ONLY valid JSON.
+
+Format:
 
 {{
-    "summary": "",
-    "spending_habits": [],
-    "risks": [],
-    "recommendations": []
+  "summary": "",
+  "spending_habits": [],
+  "risks": [],
+  "recommendations": []
 }}
 """
 

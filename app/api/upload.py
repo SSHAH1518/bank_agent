@@ -264,6 +264,30 @@ async def upload_pdf(
         .to_dict()
     )
 
+    investment_amount = (
+        category_breakdown.get("Investments", 0)
+    )
+
+    savings_amount = (
+        category_breakdown.get("Savings", 0)
+    )
+
+    salary_amount = (
+        category_breakdown.get("Salary", 0)
+    )
+
+    luxury_amount = (
+        category_breakdown.get("Luxury Spending", 0)
+    )
+
+    travel_amount = (
+        category_breakdown.get("Travel", 0)
+    )
+
+    dining_amount = category_breakdown.get(
+        "Dining", 0
+    )
+
     net_cashflow = total_credit - total_debit
 
     analytics = _json_safe({
@@ -282,6 +306,35 @@ async def upload_pdf(
 
         "top_transactions": top_transactions(df)
     })
+
+    savings_ratio = (
+        (investment_amount + savings_amount)
+        / total_credit
+    )
+
+    discretionary_ratio = (
+        (
+            luxury_amount +
+            travel_amount +
+            dining_amount
+        )
+        / total_credit
+    )
+
+    investment_ratio = (
+        investment_amount
+        / total_credit
+    )
+
+    
+    analytics["investment_rate"] = investment_amount / salary_amount
+    analytics["savings_rate"] = savings_amount / salary_amount
+    analytics["luxury_spending_rate"] = luxury_amount / salary_amount
+    analytics["travel_spending_rate"] = travel_amount / salary_amount
+    analytics["dining_ratio"] = (dining_amount / total_debit)
+    analytics["savings_ratio"] = savings_ratio
+    analytics["investment_ratio"] = investment_ratio
+    analytics["discretionary_ratio"] = discretionary_ratio
 
     analytics_path = (
         file_path

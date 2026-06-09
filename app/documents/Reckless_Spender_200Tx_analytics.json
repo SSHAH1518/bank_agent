@@ -36,10 +36,10 @@
         "Credit Card Payment": 303453.0,
         "Dining": -317548.0,
         "Luxury Spending": -229274.0,
-        "Other": 140611.0,
         "Salary": 1642511.0,
         "Shopping": -72620.0,
-        "Travel": 394373.0
+        "Travel": 394373.0,
+        "Unclassified": 140611.0
     },
     "top_transactions": [
         {
@@ -47,7 +47,7 @@
             "description": "",
             "type": "",
             "amount": 187490.0,
-            "category": "Other",
+            "category": "Unclassified",
             "month": "2026-01",
             "is_credit": false,
             "is_debit": false
@@ -142,5 +142,13 @@
             "is_credit": false,
             "is_debit": true
         }
-    ]
+    ],
+    "investment_rate": 0.0,
+    "savings_rate": 0.0,
+    "luxury_spending_rate": -0.1395874974353292,
+    "travel_spending_rate": 0.24010371924449822,
+    "dining_ratio": 1.353675900111688,
+    "savings_ratio": 0.0,
+    "investment_ratio": 0.0,
+    "discretionary_ratio": -0.08550979484806417
 }

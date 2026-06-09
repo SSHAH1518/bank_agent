@@ -2,8 +2,8 @@
     "account_holder": "Smart Investor",
     "account_number": "200 synthetic transactions for analytics and financial profiling.",
     "total_credit": 4362616.0,
-    "total_debit": 2483547.0,
-    "net_cashflow": 1879069.0,
+    "total_debit": 2504274.0,
+    "net_cashflow": 1858342.0,
     "monthly_summary": [
         {
             "date": "2026-01",
@@ -15,7 +15,7 @@
         },
         {
             "date": "2026-03",
-            "amount": 1142121.0
+            "amount": 1162848.0
         },
         {
             "date": "2026-04",
@@ -31,14 +31,14 @@
         }
     ],
     "category_breakdown": {
-        "Bank Transfer": 102302.0,
         "Dining": 18391.0,
         "Dividend Income": 17887.0,
-        "Groceries": 69257.0,
+        "Groceries": 67329.0,
         "Investments": 1987047.0,
-        "Other": 0.0,
-        "Rent": 444429.0,
-        "Salary": 4206850.0
+        "Rent": 467084.0,
+        "Salary": 4206850.0,
+        "Savings": 102302.0,
+        "Unclassified": 0.0
     },
     "top_transactions": [
         {
@@ -141,5 +141,13 @@
             "is_credit": true,
             "is_debit": false
         }
-    ]
+    ],
+    "investment_rate": 0.4723360709319324,
+    "savings_rate": 0.02431795761674412,
+    "luxury_spending_rate": 0.0,
+    "travel_spending_rate": 0.0,
+    "dining_ratio": 0.00734384496265185,
+    "savings_ratio": 0.47892113355839705,
+    "investment_ratio": 0.4554714419054989,
+    "discretionary_ratio": 0.004215589912107781
 }

@@ -1,17 +1,17 @@
 date,description,type,amount,category,month,is_credit,is_debit
 2026-01-01,SIP Investment,credit,11736,Investments,2026-01,True,False
-2026-01-02,Emergency Fund Transfer,debit,7562,Bank Transfer,2026-01,False,True
+2026-01-02,Emergency Fund Transfer,debit,7562,Savings,2026-01,False,True
 2026-01-03,Salary Credit,credit,125345,Salary,2026-01,True,False
 2026-01-04,Salary Credit,credit,87032,Salary,2026-01,True,False
 2026-01-05,Salary Credit,credit,91730,Salary,2026-01,True,False
 2026-01-06,SIP Investment,credit,7369,Investments,2026-01,True,False
-2026-01-07,Emergency Fund Transfer,debit,7606,Bank Transfer,2026-01,False,True
+2026-01-07,Emergency Fund Transfer,debit,7606,Savings,2026-01,False,True
 2026-01-08,Dividend Credit,credit,427,Dividend Income,2026-01,True,False
 2026-01-09,SIP Investment,credit,11860,Investments,2026-01,True,False
 2026-01-10,Index Fund Purchase,debit,8282,Investments,2026-01,False,True
 2026-01-11,Salary Credit,credit,110078,Salary,2026-01,True,False
 2026-01-12,Index Fund Purchase,debit,4098,Investments,2026-01,False,True
-2026-01-13,Emergency Fund Transfer,debit,2165,Bank Transfer,2026-01,False,True
+2026-01-13,Emergency Fund Transfer,debit,2165,Savings,2026-01,False,True
 2026-01-14,Index Fund Purchase,debit,5210,Investments,2026-01,False,True
 2026-01-15,SIP Investment,debit,9240,Investments,2026-01,False,True
 2026-01-16,Groceries,debit,3162,Groceries,2026-01,False,True
@@ -20,15 +20,15 @@ date,description,type,amount,category,month,is_credit,is_debit
 2026-01-19,SIP Investment,debit,9041,Investments,2026-01,False,True
 2026-01-20,Salary Credit,credit,142671,Salary,2026-01,True,False
 2026-01-21,SIP Investment,debit,10399,Investments,2026-01,False,True
-2026-01-22,Emergency Fund Transfer,debit,5322,Bank Transfer,2026-01,False,True
+2026-01-22,Emergency Fund Transfer,debit,5322,Savings,2026-01,False,True
 2026-01-23,Groceries,debit,1286,Groceries,2026-01,False,True
-2026-01-24,,,0,Other,2026-01,False,False
+2026-01-24,,,0,Unclassified,2026-01,False,False
 2026-01-25,Index Fund Purchase,debit,3070,Investments,2026-01,False,True
-2026-01-26,Emergency Fund Transfer,credit,2870,Bank Transfer,2026-01,True,False
+2026-01-26,Emergency Fund Transfer,credit,2870,Savings,2026-01,True,False
 2026-01-27,Groceries,debit,1880,Groceries,2026-01,False,True
 2026-01-28,SIP Investment,credit,4366,Investments,2026-01,True,False
 2026-01-29,Dining,debit,550,Dining,2026-01,False,True
-2026-01-30,Emergency Fund Transfer,credit,5466,Bank Transfer,2026-01,True,False
+2026-01-30,Emergency Fund Transfer,credit,5466,Savings,2026-01,True,False
 2026-01-31,Groceries,debit,2374,Groceries,2026-01,False,True
 2026-02-01,SIP Investment,credit,4065,Investments,2026-02,True,False
 2026-02-02,Groceries,debit,879,Groceries,2026-02,False,True
@@ -45,7 +45,7 @@ date,description,type,amount,category,month,is_credit,is_debit
 2026-02-12,Index Fund Purchase,debit,5210,Investments,2026-02,False,True
 2026-02-13,Dividend Credit,credit,1441,Dividend Income,2026-02,True,False
 2026-02-14,Groceries,debit,937,Groceries,2026-02,False,True
-2026-02-15,Emergency Fund Transfer,debit,4660,Bank Transfer,2026-02,False,True
+2026-02-15,Emergency Fund Transfer,debit,4660,Savings,2026-02,False,True
 2026-02-16,Salary Credit,credit,102743,Salary,2026-02,True,False
 2026-02-17,SIP Investment,debit,9343,Investments,2026-02,False,True
 2026-02-18,SIP Investment,debit,0,Investments,2026-02,False,True
@@ -62,7 +62,7 @@ date,description,type,amount,category,month,is_credit,is_debit
 2026-03-01,Dining,debit,1114,Dining,2026-03,False,True
 2026-03-02,Dining,debit,885,Dining,2026-03,False,True
 2026-03-02,Dining,debit,1210,Dining,2026-03,False,True
-2026-03-03,Emergency Fund Transfer,debit,7623,Bank Transfer,2026-03,False,True
+2026-03-03,Emergency Fund Transfer,debit,7623,Savings,2026-03,False,True
 2026-03-04,Groceries,debit,1309,Groceries,2026-03,False,True
 2026-03-05,Dining,debit,334,Dining,2026-03,False,True
 2026-03-06,Groceries,debit,1929,Groceries,2026-03,False,True
@@ -74,29 +74,29 @@ date,description,type,amount,category,month,is_credit,is_debit
 2026-03-12,Groceries,debit,1970,Groceries,2026-03,False,True
 2026-03-13,SIP Investment,debit,11525,Investments,2026-03,False,True
 2026-03-14,SIP Investment,debit,9479,Investments,2026-03,False,True
-2026-03-15,,,0,Other,2026-03,False,False
-2026-03-16,Groceries,debit,1928,Groceries,2026-03,False,True
-2026-03-17,Salary Credit,credit,93016,Salary,2026-03,True,False
-2026-03-18,Groceries,debit,918,Groceries,2026-03,False,True
-2026-03-19,SIP Investment,debit,5157,Investments,2026-03,False,True
-2026-03-20,Index Fund Purchase,debit,7722,Investments,2026-03,False,True
-2026-03-21,SIP Investment,debit,11976,Investments,2026-03,False,True
-2026-03-22,SIP Investment,debit,9567,Investments,2026-03,False,True
-2026-03-23,Salary Credit,credit,127188,Salary,2026-03,True,False
-2026-03-24,Emergency Fund Transfer,debit,5357,Bank Transfer,2026-03,False,True
-2026-03-25,Emergency Fund Transfer,debit,2556,Bank Transfer,2026-03,False,True
-2026-03-26,SIP Investment,debit,7929,Investments,2026-03,False,True
-2026-03-27,Dining,debit,1320,Dining,2026-03,False,True
+2026-03-15,,,0,Unclassified,2026-03,False,False
+2026-03-16,Salary Credit,credit,93016,Salary,2026-03,True,False
+2026-03-17,Groceries,debit,918,Groceries,2026-03,False,True
+2026-03-18,SIP Investment,debit,5157,Investments,2026-03,False,True
+2026-03-19,Index Fund Purchase,debit,7722,Investments,2026-03,False,True
+2026-03-20,SIP Investment,debit,11976,Investments,2026-03,False,True
+2026-03-21,SIP Investment,debit,9567,Investments,2026-03,False,True
+2026-03-22,Salary Credit,credit,127188,Salary,2026-03,True,False
+2026-03-23,Emergency Fund Transfer,debit,5357,Savings,2026-03,False,True
+2026-03-24,Emergency Fund Transfer,debit,2556,Savings,2026-03,False,True
+2026-03-25,SIP Investment,debit,7929,Investments,2026-03,False,True
+2026-03-26,Dining,debit,1320,Dining,2026-03,False,True
+2026-03-27,Rent,debit,22655,Rent,2026-03,False,True
 2026-03-28,SIP Investment,debit,4431,Investments,2026-03,False,True
 2026-03-29,SIP Investment,debit,786147,Investments,2026-03,False,True
 2026-03-30,Dining,debit,1403,Dining,2026-03,False,True
-2026-03-31,Emergency Fund Transfer,debit,6844,Bank Transfer,2026-03,False,True
-2026-04-01,Emergency Fund Transfer,debit,7069,Bank Transfer,2026-04,False,True
+2026-03-31,Emergency Fund Transfer,debit,6844,Savings,2026-03,False,True
+2026-04-01,Emergency Fund Transfer,debit,7069,Savings,2026-04,False,True
 2026-04-02,Dividend Credit,credit,230,Dividend Income,2026-04,True,False
 2026-04-03,Groceries,debit,2198,Groceries,2026-04,False,True
 2026-04-04,SIP Investment,debit,4063,Investments,2026-04,False,True
 2026-04-05,SIP Investment,debit,10372,Investments,2026-04,False,True
-2026-04-06,Emergency Fund Transfer,debit,6339,Bank Transfer,2026-04,False,True
+2026-04-06,Emergency Fund Transfer,debit,6339,Savings,2026-04,False,True
 2026-04-07,Index Fund Purchase,debit,8812,Investments,2026-04,False,True
 2026-04-08,Index Fund Purchase,debit,3994,Investments,2026-04,False,True
 2026-04-09,Index Fund Purchase,debit,735283,Investments,2026-04,False,True
@@ -108,7 +108,7 @@ date,description,type,amount,category,month,is_credit,is_debit
 2026-04-15,Dividend Credit,credit,1979,Dividend Income,2026-04,True,False
 2026-04-16,SIP Investment,debit,8824,Investments,2026-04,False,True
 2026-04-17,Rent,debit,31800,Rent,2026-04,False,True
-2026-04-18,Emergency Fund Transfer,credit,7041,Bank Transfer,2026-04,True,False
+2026-04-18,Emergency Fund Transfer,credit,7041,Savings,2026-04,True,False
 2026-04-19,Groceries,debit,2039,Groceries,2026-04,False,True
 2026-04-20,Dividend Credit,credit,979,Dividend Income,2026-04,True,False
 2026-04-21,Dining,debit,1040,Dining,2026-04,False,True
@@ -138,7 +138,7 @@ date,description,type,amount,category,month,is_credit,is_debit
 2026-05-15,Index Fund Purchase,credit,5584,Investments,2026-05,True,False
 2026-05-16,Groceries,debit,3223,Groceries,2026-05,False,True
 2026-05-17,Index Fund Purchase,debit,7606,Investments,2026-05,False,True
-2026-05-18,Emergency Fund Transfer,debit,7119,Bank Transfer,2026-05,False,True
+2026-05-18,Emergency Fund Transfer,debit,7119,Savings,2026-05,False,True
 2026-05-19,Rent,debit,26123,Rent,2026-05,False,True
 2026-05-20,Index Fund Purchase,debit,8788,Investments,2026-05,False,True
 2026-05-21,Index Fund Purchase,debit,8648,Investments,2026-05,False,True
@@ -149,7 +149,7 @@ date,description,type,amount,category,month,is_credit,is_debit
 2026-05-26,Index Fund Purchase,debit,2889,Investments,2026-05,False,True
 2026-05-27,Dining,debit,541,Dining,2026-05,False,True
 2026-05-28,Groceries,debit,1583,Groceries,2026-05,False,True
-2026-05-29,,debit,0,Other,2026-05,False,True
+2026-05-29,,debit,0,Unclassified,2026-05,False,True
 2026-05-30,Dividend Credit,credit,2229,Dividend Income,2026-05,True,False
 2026-05-31,Rent,debit,24360,Rent,2026-05,False,True
 2026-06-01,Groceries,debit,2126,Groceries,2026-06,False,True
@@ -162,7 +162,7 @@ date,description,type,amount,category,month,is_credit,is_debit
 2026-06-08,Groceries,debit,2106,Groceries,2026-06,False,True
 2026-06-09,Dining,debit,1315,Dining,2026-06,False,True
 2026-06-10,Salary Credit,credit,133104,Salary,2026-06,True,False
-2026-06-10,Emergency Fund Transfer,debit,4543,Bank Transfer,2026-06,False,True
+2026-06-10,Emergency Fund Transfer,debit,4543,Savings,2026-06,False,True
 2026-06-11,SIP Investment,debit,10510,Investments,2026-06,False,True
 2026-06-12,Salary Credit,credit,147841,Salary,2026-06,True,False
 2026-06-13,Rent,debit,20567,Rent,2026-06,False,True
@@ -175,7 +175,7 @@ date,description,type,amount,category,month,is_credit,is_debit
 2026-06-20,Salary Credit,credit,84934,Salary,2026-06,True,False
 2026-06-21,Dividend Credit,credit,1973,Dividend Income,2026-06,True,False
 2026-06-22,Rent,debit,28689,Rent,2026-06,False,True
-2026-06-23,,debit,0,Other,2026-06,False,True
+2026-06-23,,debit,0,Unclassified,2026-06,False,True
 2026-06-24,SIP Investment,debit,10320,Investments,2026-06,False,True
 2026-06-25,SIP Investment,debit,4402,Investments,2026-06,False,True
 2026-06-26,Salary Credit,credit,88216,Salary,2026-06,True,False
@@ -196,10 +196,10 @@ date,description,type,amount,category,month,is_credit,is_debit
 2026-01-12,SIP Investment,credit,5799,Investments,2026-01,True,False
 2026-01-13,SIP Investment,credit,7170,Investments,2026-01,True,False
 2026-01-14,Groceries,debit,1642,Groceries,2026-01,False,True
-2026-01-15,Emergency Fund Transfer,debit,6081,Bank Transfer,2026-01,False,True
+2026-01-15,Emergency Fund Transfer,debit,6081,Savings,2026-01,False,True
 2026-01-16,Salary Credit,credit,116492,Salary,2026-01,True,False
 2026-01-17,Dividend Credit,credit,624,Dividend Income,2026-01,True,False
-2026-01-18,Emergency Fund Transfer,debit,3798,Bank Transfer,2026-01,False,True
-2026-01-19,,debit,0,Other,2026-01,False,True
-2026-01-20,Emergency Fund Transfer,debit,2281,Bank Transfer,2026-01,False,True
+2026-01-18,Emergency Fund Transfer,debit,3798,Savings,2026-01,False,True
+2026-01-19,,debit,0,Unclassified,2026-01,False,True
+2026-01-20,Emergency Fund Transfer,debit,2281,Savings,2026-01,False,True
 2026-01-20,Salary Credit,credit,1632043,Salary,2026-01,True,False

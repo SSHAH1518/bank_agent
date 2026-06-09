@@ -1,0 +1,145 @@
+{
+    "account_holder": "Smart Investor",
+    "account_number": "200 synthetic transactions for analytics and financial profiling.",
+    "total_credit": 4362616.0,
+    "total_debit": 2483547.0,
+    "net_cashflow": 1879069.0,
+    "monthly_summary": [
+        {
+            "date": "2026-01",
+            "amount": 2778701.0
+        },
+        {
+            "date": "2026-02",
+            "amount": 342728.0
+        },
+        {
+            "date": "2026-03",
+            "amount": 1142121.0
+        },
+        {
+            "date": "2026-04",
+            "amount": 1342349.0
+        },
+        {
+            "date": "2026-05",
+            "amount": 225742.0
+        },
+        {
+            "date": "2026-06",
+            "amount": 1014522.0
+        }
+    ],
+    "category_breakdown": {
+        "Bank Transfer": 102302.0,
+        "Dining": 18391.0,
+        "Dividend Income": 17887.0,
+        "Groceries": 69257.0,
+        "Investments": 1987047.0,
+        "Other": 0.0,
+        "Rent": 444429.0,
+        "Salary": 4206850.0
+    },
+    "top_transactions": [
+        {
+            "date": "2026-01-20",
+            "description": "Salary Credit",
+            "type": "credit",
+            "amount": 1632043.0,
+            "category": "Salary",
+            "month": "2026-01",
+            "is_credit": true,
+            "is_debit": false
+        },
+        {
+            "date": "2026-03-29",
+            "description": "SIP Investment",
+            "type": "debit",
+            "amount": 786147.0,
+            "category": "Investments",
+            "month": "2026-03",
+            "is_credit": false,
+            "is_debit": true
+        },
+        {
+            "date": "2026-04-09",
+            "description": "Index Fund Purchase",
+            "type": "debit",
+            "amount": 735283.0,
+            "category": "Investments",
+            "month": "2026-04",
+            "is_credit": false,
+            "is_debit": true
+        },
+        {
+            "date": "2026-06-12",
+            "description": "Salary Credit",
+            "type": "credit",
+            "amount": 147841.0,
+            "category": "Salary",
+            "month": "2026-06",
+            "is_credit": true,
+            "is_debit": false
+        },
+        {
+            "date": "2026-01-20",
+            "description": "Salary Credit",
+            "type": "credit",
+            "amount": 142671.0,
+            "category": "Salary",
+            "month": "2026-01",
+            "is_credit": true,
+            "is_debit": false
+        },
+        {
+            "date": "2026-06-16",
+            "description": "Salary Credit",
+            "type": "credit",
+            "amount": 141869.0,
+            "category": "Salary",
+            "month": "2026-06",
+            "is_credit": true,
+            "is_debit": false
+        },
+        {
+            "date": "2026-04-12",
+            "description": "Salary Credit",
+            "type": "credit",
+            "amount": 139851.0,
+            "category": "Salary",
+            "month": "2026-04",
+            "is_credit": true,
+            "is_debit": false
+        },
+        {
+            "date": "2026-01-18",
+            "description": "Salary Credit",
+            "type": "credit",
+            "amount": 135074.0,
+            "category": "Salary",
+            "month": "2026-01",
+            "is_credit": true,
+            "is_debit": false
+        },
+        {
+            "date": "2026-06-10",
+            "description": "Salary Credit",
+            "type": "credit",
+            "amount": 133104.0,
+            "category": "Salary",
+            "month": "2026-06",
+            "is_credit": true,
+            "is_debit": false
+        },
+        {
+            "date": "2026-04-23",
+            "description": "Salary Credit",
+            "type": "credit",
+            "amount": 133082.0,
+            "category": "Salary",
+            "month": "2026-04",
+            "is_credit": true,
+            "is_debit": false
+        }
+    ]
+}

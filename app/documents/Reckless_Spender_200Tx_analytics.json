@@ -1,0 +1,146 @@
+{
+    "account_holder": "Reckless Spender",
+    "account_number": "49457",
+    "total_credit": 1782825.0,
+    "total_debit": -234582.0,
+    "net_cashflow": 2017407.0,
+    "monthly_summary": [
+        {
+            "date": "2026-01",
+            "amount": 2354406.0
+        },
+        {
+            "date": "2026-02",
+            "amount": -1310435.0
+        },
+        {
+            "date": "2026-03",
+            "amount": 504049.0
+        },
+        {
+            "date": "2026-04",
+            "amount": 164645.0
+        },
+        {
+            "date": "2026-05",
+            "amount": 511280.0
+        },
+        {
+            "date": "2026-06",
+            "amount": -492155.0
+        }
+    ],
+    "category_breakdown": {
+        "ATM Withdrawal": 29333.0,
+        "Bank Charges": -159049.0,
+        "Credit Card Payment": 303453.0,
+        "Dining": -317548.0,
+        "Luxury Spending": -229274.0,
+        "Other": 140611.0,
+        "Salary": 1642511.0,
+        "Shopping": -72620.0,
+        "Travel": 394373.0
+    },
+    "top_transactions": [
+        {
+            "date": "2026-01-24",
+            "description": "",
+            "type": "",
+            "amount": 187490.0,
+            "category": "Other",
+            "month": "2026-01",
+            "is_credit": false,
+            "is_debit": false
+        },
+        {
+            "date": "2026-01-03",
+            "description": "Salary Credit",
+            "type": "credit",
+            "amount": 151594.0,
+            "category": "Salary",
+            "month": "2026-01",
+            "is_credit": true,
+            "is_debit": false
+        },
+        {
+            "date": "2026-01-03",
+            "description": "Salary Credit",
+            "type": "credit",
+            "amount": 151594.0,
+            "category": "Salary",
+            "month": "2026-01",
+            "is_credit": true,
+            "is_debit": false
+        },
+        {
+            "date": "2026-01-04",
+            "description": "Weekend Trip",
+            "type": "debit",
+            "amount": 138355.0,
+            "category": "Travel",
+            "month": "2026-01",
+            "is_credit": false,
+            "is_debit": true
+        },
+        {
+            "date": "2026-01-04",
+            "description": "Weekend Trip",
+            "type": "debit",
+            "amount": 138355.0,
+            "category": "Travel",
+            "month": "2026-01",
+            "is_credit": false,
+            "is_debit": true
+        },
+        {
+            "date": "2026-01-05",
+            "description": "Restaurant",
+            "type": "debit",
+            "amount": 135848.0,
+            "category": "Dining",
+            "month": "2026-01",
+            "is_credit": false,
+            "is_debit": true
+        },
+        {
+            "date": "2026-01-05",
+            "description": "Restaurant",
+            "type": "debit",
+            "amount": 135848.0,
+            "category": "Dining",
+            "month": "2026-01",
+            "is_credit": false,
+            "is_debit": true
+        },
+        {
+            "date": "2026-06-29",
+            "description": "Salary Credit",
+            "type": "credit",
+            "amount": 121432.0,
+            "category": "Salary",
+            "month": "2026-06",
+            "is_credit": true,
+            "is_debit": false
+        },
+        {
+            "date": "2026-06-29",
+            "description": "Salary Credit",
+            "type": "credit",
+            "amount": 121432.0,
+            "category": "Salary",
+            "month": "2026-06",
+            "is_credit": true,
+            "is_debit": false
+        },
+        {
+            "date": "2026-01-06",
+            "description": "Credit Card Payment",
+            "type": "debit",
+            "amount": 117595.0,
+            "category": "Credit Card Payment",
+            "month": "2026-01",
+            "is_credit": false,
+            "is_debit": true
+        }
+    ]
+}

@@ -1,0 +1,142 @@
+{
+    "account_holder": "Conservative Saver",
+    "account_number": "synthetic transactions for analytics and financial profiling",
+    "total_credit": 12232088.0,
+    "total_debit": 10474661.0,
+    "net_cashflow": 1757427.0,
+    "monthly_summary": [
+        {
+            "date": "2026-01",
+            "amount": 4399999.0
+        },
+        {
+            "date": "2026-02",
+            "amount": 1422671.0
+        },
+        {
+            "date": "2026-03",
+            "amount": 606481.0
+        },
+        {
+            "date": "2026-04",
+            "amount": 295350.0
+        },
+        {
+            "date": "2026-05",
+            "amount": 15529018.0
+        },
+        {
+            "date": "2026-06",
+            "amount": 453230.0
+        }
+    ],
+    "category_breakdown": {
+        "Emergency Savings": 14355074.0,
+        "Groceries": 804066.0,
+        "Other": 4246073.0,
+        "Rent": 1274348.0,
+        "Salary": 2027188.0
+    },
+    "top_transactions": [
+        {
+            "date": "2026-05-18",
+            "description": "Savings Transfer",
+            "type": "debit",
+            "amount": 810204.0,
+            "category": "Emergency Savings",
+            "month": "2026-05",
+            "is_credit": false,
+            "is_debit": true
+        },
+        {
+            "date": "2026-05-22",
+            "description": "Medical Expense",
+            "type": "debit",
+            "amount": 799879.0,
+            "category": "Other",
+            "month": "2026-05",
+            "is_credit": false,
+            "is_debit": true
+        },
+        {
+            "date": "2026-05-22",
+            "description": "Medical Expense",
+            "type": "credit",
+            "amount": 799879.0,
+            "category": "Other",
+            "month": "2026-05",
+            "is_credit": true,
+            "is_debit": false
+        },
+        {
+            "date": "2026-05-20",
+            "description": "Savings Transfer",
+            "type": "debit",
+            "amount": 799545.0,
+            "category": "Emergency Savings",
+            "month": "2026-05",
+            "is_credit": false,
+            "is_debit": true
+        },
+        {
+            "date": "2026-05-20",
+            "description": "Savings Transfer",
+            "type": "credit",
+            "amount": 799545.0,
+            "category": "Emergency Savings",
+            "month": "2026-05",
+            "is_credit": true,
+            "is_debit": false
+        },
+        {
+            "date": "2026-05-23",
+            "description": "Savings Transfer",
+            "type": "debit",
+            "amount": 798879.0,
+            "category": "Emergency Savings",
+            "month": "2026-05",
+            "is_credit": false,
+            "is_debit": true
+        },
+        {
+            "date": "2026-05-23",
+            "description": "Savings Transfer",
+            "type": "credit",
+            "amount": 798879.0,
+            "category": "Emergency Savings",
+            "month": "2026-05",
+            "is_credit": true,
+            "is_debit": false
+        },
+        {
+            "date": "2026-01-20",
+            "description": "Savings Transfer",
+            "type": "credit",
+            "amount": 793931.0,
+            "category": "Emergency Savings",
+            "month": "2026-01",
+            "is_credit": true,
+            "is_debit": false
+        },
+        {
+            "date": "2026-05-24",
+            "description": "Savings Transfer",
+            "type": "credit",
+            "amount": 787238.0,
+            "category": "Emergency Savings",
+            "month": "2026-05",
+            "is_credit": true,
+            "is_debit": false
+        },
+        {
+            "date": "2026-05-24",
+            "description": "Savings Transfer",
+            "type": "debit",
+            "amount": 787238.0,
+            "category": "Emergency Savings",
+            "month": "2026-05",
+            "is_credit": false,
+            "is_debit": true
+        }
+    ]
+}

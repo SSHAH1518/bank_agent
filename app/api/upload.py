@@ -1,7 +1,7 @@
 from pathlib import Path
 
 import pandas as pd
-
+import json
 from fastapi import UploadFile
 from fastapi import File
 from fastapi import APIRouter
@@ -229,6 +229,35 @@ async def upload_pdf(
         df["date"]
     ).dt.to_period("M")
 
+    df["is_credit"] = (
+        df["type"] == "credit"
+    )
+
+    df["is_debit"] = (
+        df["type"] == "debit"
+    )
+
+    csv_path = (
+        file_path
+        .replace(".pdf", ".csv")
+    )
+
+    df_to_save = df.copy()
+
+    df_to_save["month"] = (
+        df_to_save["month"]
+        .astype(str)
+    )
+
+    df_to_save.to_csv(
+        csv_path,
+        index=False
+    )
+
+    print(
+        f"\nSaved CSV: {csv_path}\n"
+    )
+
     category_breakdown = (
         df.groupby("category")["amount"]
         .sum()
@@ -253,6 +282,25 @@ async def upload_pdf(
 
         "top_transactions": top_transactions(df)
     })
+
+    analytics_path = (
+        file_path
+        .replace(".pdf", "_analytics.json")
+    )
+
+    with open(
+        analytics_path,
+        "w"
+    ) as f:
+        json.dump(
+            analytics,
+            f,
+            indent=4
+        )
+
+    print(
+        f"Saved analytics: {analytics_path}"
+    )
     advice = generate_financial_advice(analytics)
 
     print("\n===== ADVICE =====")

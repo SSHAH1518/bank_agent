@@ -1,0 +1,227 @@
+date,description,type,amount,category,month,is_credit,is_debit
+2026-01-01,Restaurant,debit,543,Dining,2026-01,False,True
+2026-01-02,Online Shopping,debit,10633,Shopping,2026-01,False,True
+2026-01-03,Salary Credit,credit,66661,Salary,2026-01,True,False
+2026-01-04,Salary Credit,credit,65006,Salary,2026-01,True,False
+2026-01-05,Restaurant,debit,4162,Dining,2026-01,False,True
+2026-01-06,Online Shopping,debit,11503,Shopping,2026-01,False,True
+2026-01-07,Salary Credit,credit,76889,Salary,2026-01,True,False
+2026-01-08,Online Shopping,debit,7375,Shopping,2026-01,False,True
+2026-01-09,Weekend Trip,debit,8481,Travel,2026-01,False,True
+2026-01-10,Credit Card Payment,debit,14522,Credit Card Payment,2026-01,False,True
+2026-01-11,Overdraft Fee,debit,922,Bank Charges,2026-01,False,True
+2026-01-12,Gadget Purchase,debit,12925,Luxury Spending,2026-01,False,True
+2026-01-13,Credit Card Payment,debit,15869,Credit Card Payment,2026-01,False,True
+2026-01-14,Gadget Purchase,debit,14990,Luxury Spending,2026-01,False,True
+2026-01-15,Cash Withdrawal,debit,2294,ATM Withdrawal,2026-01,False,True
+2026-01-16,Credit Card Payment,debit,15962,Credit Card Payment,2026-01,False,True
+2026-01-17,Credit Card Payment,debit,7779,Credit Card Payment,2026-01,False,True
+2026-01-18,Credit Card Payment,debit,8672,Credit Card Payment,2026-01,False,True
+2026-01-19,Online Shopping,debit,8446,Shopping,2026-01,False,True
+2026-01-20,Credit Card Payment,debit,18374,Credit Card Payment,2026-01,False,True
+2026-01-21,Credit Card Payment,debit,13979,Credit Card Payment,2026-01,False,True
+2026-01-22,Credit Card Payment,debit,11459,Credit Card Payment,2026-01,False,True
+2026-01-23,Online Shopping,debit,4350,Shopping,2026-01,False,True
+2026-01-24,,,187490,Other,2026-01,False,False
+2026-01-25,Credit Card Payment,credit,57425,Credit Card Payment,2026-01,True,False
+2026-01-26,Online Shopping,debit,11896,Shopping,2026-01,False,True
+2026-01-27,Online Shopping,debit,7969,Shopping,2026-01,False,True
+2026-01-28,Online Shopping,debit,7478,Shopping,2026-01,False,True
+2026-01-29,Overdraft Fee,debit,1087,Bank Charges,2026-01,False,True
+2026-01-30,Online Shopping,debit,11879,Shopping,2026-01,False,True
+2026-01-31,Online Shopping,debit,9917,Shopping,2026-01,False,True
+2026-02-01,Restaurant,debit,1555,Dining,2026-02,False,True
+2026-02-02,Weekend Trip,debit,14528,Travel,2026-02,False,True
+2026-02-02,Weekend Trip,credit,8884,Travel,2026-02,True,False
+2026-02-03,Restaurant,debit,1094,Dining,2026-02,False,True
+2026-02-03,Restaurant,credit,9978,Dining,2026-02,True,False
+2026-02-04,Weekend Trip,debit,19800,Travel,2026-02,False,True
+2026-02-04,Weekend Trip,credit,29778,Travel,2026-02,True,False
+2026-02-05,Restaurant,debit,5751,Dining,2026-02,False,True
+2026-02-05,Restaurant,credit,35529,Dining,2026-02,True,False
+2026-02-05,Cash Withdrawal,debit,3864,ATM Withdrawal,2026-02,False,True
+2026-02-06,Credit Card Payment,credit,-39393,Credit Card Payment,2026-02,True,False
+2026-02-07,Weekend Trip,debit,-54850,Travel,2026-02,False,True
+2026-02-08,Gadget Purchase,debit,-66447,Luxury Spending,2026-02,False,True
+2026-02-09,Overdraft Fee,debit,-78886,Bank Charges,2026-02,False,True
+2026-02-10,Cash Withdrawal,debit,-79300,ATM Withdrawal,2026-02,False,True
+2026-02-11,Credit Card Payment,credit,-104880,Credit Card Payment,2026-02,True,False
+2026-02-12,Weekend Trip,debit,-123524,Travel,2026-02,False,True
+2026-02-13,Weekend Trip,debit,-132926,Travel,2026-02,False,True
+2026-02-14,Salary Credit,credit,-77246,Salary,2026-02,True,False
+2026-02-15,Restaurant,debit,-81991,Dining,2026-02,False,True
+2026-02-16,Restaurant,debit,-84298,Dining,2026-02,False,True
+2026-02-17,Credit Card Payment,credit,-89360,Credit Card Payment,2026-02,True,False
+2026-02-19,Online Shopping,debit,-93954,Shopping,2026-02,False,True
+2026-02-20,Restaurant,debit,-98754,Dining,2026-02,False,True
+2026-02-21,Salary Credit,credit,61754,Salary,2026-02,True,False
+2026-02-22,Online Shopping,debit,-39597,Shopping,2026-02,False,True
+2026-02-23,Restaurant,debit,-42788,Dining,2026-02,False,True
+2026-02-24,Online Shopping,debit,-52386,Shopping,2026-02,False,True
+2026-02-25,Overdraft Fee,debit,-53075,Bank Charges,2026-02,False,True
+2026-02-26,Online Shopping,debit,-60943,Shopping,2026-02,False,True
+2026-02-27,Credit Card Payment,debit,-74761,Credit Card Payment,2026-02,False,True
+2026-02-28,Salary Credit,credit,40227,Salary,2026-02,True,False
+2026-03-01,Restaurant,debit,-36948,Dining,2026-03,False,True
+2026-03-02,Gadget Purchase,debit,-64195,Luxury Spending,2026-03,False,True
+2026-02-27,Online Shopping,debit,-13818,Shopping,2026-02,False,True
+2026-03-03,Restaurant,debit,-4095,Dining,2026-03,False,True
+2026-03-04,Online Shopping,debit,-9107,Shopping,2026-03,False,True
+2026-03-05,Cash Withdrawal,debit,-7297,ATM Withdrawal,2026-03,False,True
+2026-03-06,Salary Credit,credit,49554,Salary,2026-03,True,False
+2026-03-07,Restaurant,debit,-5270,Dining,2026-03,False,True
+2026-03-08,Credit Card Payment,debit,-7276,Credit Card Payment,2026-03,False,True
+2026-03-09,Restaurant,debit,-2522,Dining,2026-03,False,True
+2026-03-10,Cash Withdrawal,debit,-7812,ATM Withdrawal,2026-03,False,True
+2026-03-11,Salary Credit,credit,89235,Salary,2026-03,True,False
+2026-03-12,Overdraft Fee,debit,-1317,Bank Charges,2026-03,False,True
+2026-03-13,Credit Card Payment,debit,-12223,Credit Card Payment,2026-03,False,True
+2026-03-14,Online Shopping,debit,-12301,Shopping,2026-03,False,True
+2026-03-15,,,0,Other,2026-03,False,False
+2026-03-16,Gadget Purchase,debit,-25791,Luxury Spending,2026-03,False,True
+2026-03-17,Restaurant,debit,-27605,Dining,2026-03,False,True
+2026-03-18,Salary Credit,credit,64744,Salary,2026-03,True,False
+2026-03-19,Cash Withdrawal,debit,30026,ATM Withdrawal,2026-03,False,True
+2026-03-20,Cash Withdrawal,debit,27074,ATM Withdrawal,2026-03,False,True
+2026-03-21,Credit Card Payment,debit,8410,Credit Card Payment,2026-03,False,True
+2026-03-22,Salary Credit,credit,87950,Salary,2026-03,True,False
+2026-03-23,Credit Card Payment,debit,82948,Credit Card Payment,2026-03,False,True
+2026-03-24,Cash Withdrawal,debit,80256,ATM Withdrawal,2026-03,False,True
+2026-03-25,Overdraft Fee,debit,1211,Bank Charges,2026-03,False,True
+2026-03-26,Credit Card Payment,debit,64763,Credit Card Payment,2026-03,False,True
+2026-03-27,Restaurant,debit,63566,Dining,2026-03,False,True
+2026-03-27,Credit Card Payment,debit,12224,Credit Card Payment,2026-03,False,True
+2026-03-28,Salary Credit,credit,51855,Salary,2026-03,True,False
+2026-03-29,Online Shopping,debit,10638,Shopping,2026-03,False,True
+2026-03-30,Restaurant,debit,2275,Dining,2026-03,False,True
+2026-03-31,Overdraft Fee,debit,1079,Bank Charges,2026-03,False,True
+2026-04-01,Online Shopping,debit,11492,Shopping,2026-04,False,True
+2026-04-02,Online Shopping,debit,6540,Shopping,2026-04,False,True
+2026-04-03,Salary Credit,credit,55071,Salary,2026-04,True,False
+2026-04-04,Weekend Trip,debit,4561,Travel,2026-04,False,True
+2026-04-05,Gadget Purchase,debit,22953,Luxury Spending,2026-04,False,True
+2026-04-06,Cash Withdrawal,debit,3176,ATM Withdrawal,2026-04,False,True
+2026-04-07,Overdraft Fee,debit,630,Bank Charges,2026-04,False,True
+2026-04-08,Overdraft Fee,debit,807,Bank Charges,2026-04,False,True
+2026-04-10,Gadget Purchase,debit,10496,Luxury Spending,2026-04,False,True
+2026-04-11,Weekend Trip,debit,17833,Travel,2026-04,False,True
+2026-04-12,Credit Card Payment,debit,18635,Credit Card Payment,2026-04,False,True
+2026-04-13,Cash Withdrawal,debit,3763,ATM Withdrawal,2026-04,False,True
+2026-04-14,Restaurant,debit,4172,Dining,2026-04,False,True
+2026-04-15,Gadget Purchase,debit,11934,Luxury Spending,2026-04,False,True
+2026-04-16,Overdraft Fee,debit,1255,Bank Charges,2026-04,False,True
+2026-04-17,Overdraft Fee,debit,206,Bank Charges,2026-04,False,True
+2026-04-18,Gadget Purchase,debit,5082,Luxury Spending,2026-04,False,True
+2026-04-19,Gadget Purchase,debit,14824,Luxury Spending,2026-04,False,True
+2026-04-20,Overdraft Fee,debit,934,Bank Charges,2026-04,False,True
+2026-04-21,Credit Card Payment,debit,6470,Credit Card Payment,2026-04,False,True
+2026-04-22,Gadget Purchase,debit,-2117,Luxury Spending,2026-04,False,True
+2026-04-23,Online Shopping,debit,-26236,Shopping,2026-04,False,True
+2026-04-24,Online Shopping,debit,-28348,Shopping,2026-04,False,True
+2026-04-25,Online Shopping,debit,-42936,Shopping,2026-04,False,True
+2026-04-26,Salary Credit,credit,54171,Salary,2026-04,True,False
+2026-04-27,Restaurant,credit,1265,Dining,2026-04,True,False
+2026-04-27,Restaurant,credit,5450,Dining,2026-04,True,False
+2026-04-28,Online Shopping,credit,2431,Shopping,2026-04,True,False
+2026-04-28,Online Shopping,credit,3019,Shopping,2026-04,True,False
+2026-04-29,Cash Withdrawal,debit,-5907,ATM Withdrawal,2026-04,False,True
+2026-04-29,Cash Withdrawal,debit,8926,ATM Withdrawal,2026-04,False,True
+2026-04-30,Weekend Trip,credit,10413,Travel,2026-04,True,False
+2026-04-30,Weekend Trip,debit,-16320,Travel,2026-04,False,True
+2026-05-01,Cash Withdrawal,debit,-20232,ATM Withdrawal,2026-05,False,True
+2026-05-01,Cash Withdrawal,credit,3912,ATM Withdrawal,2026-05,True,False
+2026-05-02,Salary Credit,credit,40551,Salary,2026-05,True,False
+2026-05-02,Salary Credit,credit,20319,Salary,2026-05,True,False
+2026-05-03,Online Shopping,credit,16850,Shopping,2026-05,True,False
+2026-05-03,Online Shopping,credit,3469,Shopping,2026-05,True,False
+2026-05-04,,debit,-47456,Other,2026-05,False,True
+2026-05-04,,credit,4520,Other,2026-05,True,False
+2026-05-05,Salary Credit,credit,45171,Salary,2026-05,True,False
+2026-05-06,Credit Card Payment,debit,14347,Credit Card Payment,2026-05,False,True
+2026-05-07,Overdraft Fee,debit,1125,Bank Charges,2026-05,False,True
+2026-05-09,Restaurant,debit,564,Dining,2026-05,False,True
+2026-05-10,Cash Withdrawal,debit,9704,ATM Withdrawal,2026-05,False,True
+2026-05-11,Online Shopping,debit,12389,Shopping,2026-05,False,True
+2026-05-12,Credit Card Payment,debit,6851,Credit Card Payment,2026-05,False,True
+2026-05-13,Weekend Trip,credit,8432,Travel,2026-05,True,False
+2026-05-14,Restaurant,debit,504,Dining,2026-05,False,True
+2026-05-15,Weekend Trip,credit,18079,Travel,2026-05,True,False
+2026-05-16,Online Shopping,debit,9477,Shopping,2026-05,False,True
+2026-05-17,Gadget Purchase,debit,-53976,Luxury Spending,2026-05,False,True
+2026-05-18,Online Shopping,debit,7299,Shopping,2026-05,False,True
+2026-05-19,Online Shopping,debit,-61275,Shopping,2026-05,False,True
+2026-05-20,Restaurant,debit,2466,Dining,2026-05,False,True
+2026-05-21,Restaurant,debit,-63741,Dining,2026-05,False,True
+2026-05-22,Salary Credit,credit,85457,Salary,2026-05,True,False
+2026-05-23,Salary Credit,credit,62836,Salary,2026-05,True,False
+2026-05-23,Weekend Trip,credit,8491,Travel,2026-05,True,False
+2026-05-24,Weekend Trip,credit,72332,Travel,2026-05,True,False
+2026-05-24,Overdraft Fee,debit,833,Bank Charges,2026-05,False,True
+2026-05-25,Overdraft Fee,debit,71499,Bank Charges,2026-05,False,True
+2026-05-25,Online Shopping,debit,5225,Shopping,2026-05,False,True
+2026-05-26,Online Shopping,debit,66274,Shopping,2026-05,False,True
+2026-05-26,Credit Card Payment,debit,10663,Credit Card Payment,2026-05,False,True
+2026-05-27,Credit Card Payment,debit,55611,Credit Card Payment,2026-05,False,True
+2026-05-27,Weekend Trip,credit,19825,Travel,2026-05,True,False
+2026-05-28,Weekend Trip,credit,35786,Travel,2026-05,True,False
+2026-05-28,Credit Card Payment,debit,12821,Credit Card Payment,2026-05,False,True
+2026-05-29,Credit Card Payment,debit,22965,Credit Card Payment,2026-05,False,True
+2026-05-30,Credit Card Payment,credit,4572,Credit Card Payment,2026-05,True,False
+2026-05-31,Cash Withdrawal,debit,-3259,ATM Withdrawal,2026-05,False,True
+2026-06-01,Online Shopping,debit,-8519,Shopping,2026-06,False,True
+2026-06-02,Online Shopping,debit,-15860,Shopping,2026-06,False,True
+2026-06-03,Overdraft Fee,debit,-16774,Bank Charges,2026-06,False,True
+2026-06-04,Gadget Purchase,debit,-42197,Luxury Spending,2026-06,False,True
+2026-06-05,Credit Card Payment,debit,-51373,Credit Card Payment,2026-06,False,True
+2026-06-06,Restaurant,debit,-55917,Dining,2026-06,False,True
+2026-06-07,Gadget Purchase,debit,-67755,Luxury Spending,2026-06,False,True
+2026-06-08,Cash Withdrawal,debit,-74777,ATM Withdrawal,2026-06,False,True
+2026-06-09,Salary Credit,credit,53173,Salary,2026-06,True,False
+2026-06-10,Cash Withdrawal,debit,-30054,ATM Withdrawal,2026-06,False,True
+2026-06-10,Restaurant,debit,-55917,Dining,2026-06,False,True
+2026-06-11,Cash Withdrawal,debit,-32933,ATM Withdrawal,2026-06,False,True
+2026-06-12,Restaurant,debit,-37303,Dining,2026-06,False,True
+2026-06-13,Overdraft Fee,debit,-38299,Bank Charges,2026-06,False,True
+2026-06-14,Credit Card Payment,debit,-39390,Credit Card Payment,2026-06,False,True
+2026-06-15,Credit Card Payment,debit,-45302,Credit Card Payment,2026-06,False,True
+2026-06-16,Overdraft Fee,debit,-52809,Bank Charges,2026-06,False,True
+2026-06-17,Weekend Trip,debit,-53296,Travel,2026-06,False,True
+2026-06-18,Online Shopping,debit,-58265,Shopping,2026-06,False,True
+2026-06-19,Restaurant,debit,-65200,Dining,2026-06,False,True
+2026-06-20,Restaurant,debit,-65725,Dining,2026-06,False,True
+2026-06-21,Salary Credit,credit,-68315,Salary,2026-06,True,False
+2026-06-22,Restaurant,debit,-7809,Dining,2026-06,False,True
+2026-06-23,,,-3943,Other,2026-06,False,False
+2026-06-24,Cash Withdrawal,debit,-16037,ATM Withdrawal,2026-06,False,True
+2026-06-25,Cash Withdrawal,debit,-24269,ATM Withdrawal,2026-06,False,True
+2026-06-26,Salary Credit,credit,18764,Salary,2026-06,True,False
+2026-06-27,Salary Credit,credit,79378,Salary,2026-06,True,False
+2026-06-28,Cash Withdrawal,debit,70852,ATM Withdrawal,2026-06,False,True
+2026-06-29,Salary Credit,credit,121432,Salary,2026-06,True,False
+2026-01-01,Weekend Trip,debit,108141,Travel,2026-01,False,True
+2026-01-02,Online Shopping,debit,95824,Shopping,2026-01,False,True
+2026-01-03,Salary Credit,credit,151594,Salary,2026-01,True,False
+2026-01-04,Weekend Trip,debit,138355,Travel,2026-01,False,True
+2026-01-05,Restaurant,debit,135848,Dining,2026-01,False,True
+2026-01-06,Credit Card Payment,debit,117595,Credit Card Payment,2026-01,False,True
+2026-06-28,Cash Withdrawal,debit,70852,ATM Withdrawal,2026-06,False,True
+2026-06-29,Salary Credit,credit,121432,Salary,2026-06,True,False
+2026-01-01,Weekend Trip,debit,108141,Travel,2026-01,False,True
+2026-01-02,Online Shopping,debit,95824,Shopping,2026-01,False,True
+2026-01-03,Salary Credit,credit,151594,Salary,2026-01,True,False
+2026-01-04,Weekend Trip,debit,138355,Travel,2026-01,False,True
+2026-01-05,Restaurant,debit,135848,Dining,2026-01,False,True
+2026-01-06,Credit Card Payment,debit,117595,Credit Card Payment,2026-01,False,True
+2026-01-07,Weekend Trip,debit,5074,Travel,2026-01,False,True
+2026-01-08,Cash Withdrawal,debit,5399,ATM Withdrawal,2026-01,False,True
+2026-01-09,Restaurant,debit,2079,Dining,2026-01,False,True
+2026-01-10,Credit Card Payment,debit,17839,Credit Card Payment,2026-01,False,True
+2026-01-11,Cash Withdrawal,debit,9325,ATM Withdrawal,2026-01,False,True
+2026-01-12,Online Shopping,debit,12728,Shopping,2026-01,False,True
+2026-01-13,Cash Withdrawal,debit,1787,ATM Withdrawal,2026-01,False,True
+2026-01-14,Credit Card Payment,debit,15554,Credit Card Payment,2026-01,False,True
+2026-01-15,Salary Credit,credit,73254,Salary,2026-01,True,False
+2026-01-16,Overdraft Fee,debit,523,Bank Charges,2026-01,False,True
+2026-01-17,Restaurant,debit,4498,Dining,2026-01,False,True
+2026-01-18,Restaurant,debit,1188,Dining,2026-01,False,True
+2026-01-20,Credit Card Payment,credit,13507,Credit Card Payment,2026-01,True,False
